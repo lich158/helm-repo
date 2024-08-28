@@ -1,9 +1,42 @@
 apiVersion: v1
 entries:
+  altinity-clickhouse-operator:
+  - apiVersion: v2
+    appVersion: 0.23.7
+    created: "2024-08-28T14:05:01.585233794+08:00"
+    description: 'Helm chart to deploy [altinity-clickhouse-operator](https://github.com/Altinity/clickhouse-operator).  The
+      ClickHouse Operator creates, configures and manages ClickHouse clusters running
+      on Kubernetes.  For upgrade please install CRDs separately: ```bash   kubectl
+      apply -f https://github.com/Altinity/clickhouse-operator/raw/master/deploy/helm/clickhouse-operator/crds/CustomResourceDefinition-clickhouseinstallations.clickhouse.altinity.com.yaml   kubectl
+      apply -f https://github.com/Altinity/clickhouse-operator/raw/master/deploy/helm/clickhouse-operator/crds/CustomResourceDefinition-clickhouseinstallationtemplates.clickhouse.altinity.com.yaml   kubectl
+      apply -f https://github.com/Altinity/clickhouse-operator/raw/master/deploy/helm/clickhouse-operator/crds/CustomResourceDefinition-clickhouseoperatorconfigurations.clickhouse.altinity.com.yaml
+      ```'
+    digest: 939d6474538309df4c8e6af1fb9c733b7540c4d22b09396b4270d33950060670
+    home: https://github.com/Altinity/clickhouse-operator
+    icon: https://logosandtypes.com/wp-content/uploads/2020/12/altinity.svg
+    maintainers:
+    - email: support@altinity.com
+      name: altinity
+    name: altinity-clickhouse-operator
+    type: application
+    urls:
+    - altinity-clickhouse-operator-0.23.7.tgz
+    version: 0.23.7
+  emqx-core:
+  - apiVersion: v2
+    appVersion: "5.0"
+    created: "2024-08-28T14:05:01.585470136+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 9ca2d9474a8d2d200975fea53954dc960b97de80a0ce42dc1a7fa577006875ff
+    name: emqx-core
+    type: application
+    urls:
+    - emqx-core-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2024-08-27T16:53:44.593157753+08:00"
+    created: "2024-08-28T14:05:01.586231814+08:00"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -19,34 +52,34 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/docker-library/mysql
     urls:
-    - https://gitee.com/m15873697177/chart-repo.git/mysql-1.6.9.tgz
+    - mysql-1.6.9.tgz
     version: 1.6.9
   nacos:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-27T16:53:44.594142862+08:00"
+    created: "2024-08-28T14:05:01.588086601+08:00"
     description: A Helm chart for Kubernetes
     digest: 9ecaff99686202179dcc8969e3219f26621aaa9bdffc220bbeda24b8ee0aa69b
     name: nacos
     type: application
     urls:
-    - https://gitee.com/m15873697177/chart-repo.git/nacos.tgz
+    - nacos.tgz
     version: 0.1.0
   nacos-operator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-27T16:53:44.593906269+08:00"
+    created: "2024-08-28T14:05:01.58726838+08:00"
     description: A Helm chart for Kubernetes
     digest: 9a3f4b8aa83ba87f1e5c5714880bc29abc4fe63c154ecb0ef2a60960579cc09e
     name: nacos-operator
     type: application
     urls:
-    - https://gitee.com/m15873697177/chart-repo.git/nacos-operator.tgz
+    - nacos-operator.tgz
     version: 0.1.0
   tomcat:
   - apiVersion: v1
     appVersion: "7.0"
-    created: "2024-08-27T16:53:44.59446225+08:00"
+    created: "2024-08-28T14:05:01.588575461+08:00"
     deprecated: true
     description: DEPRECATED - Deploy a basic tomcat application server with sidecar
       as web archive container
@@ -55,6 +88,6 @@ entries:
     icon: http://tomcat.apache.org/res/images/tomcat.png
     name: tomcat
     urls:
-    - https://gitee.com/m15873697177/chart-repo.git/tomcat-0.4.3.tgz
+    - tomcat-0.4.3.tgz
     version: 0.4.3
-generated: "2024-08-27T16:53:44.592381654+08:00"
+generated: "2024-08-28T14:05:01.581609055+08:00"
