@@ -3,7 +3,7 @@ entries:
   emqx-core:
   - apiVersion: v2
     appVersion: "5.0"
-    created: "2024-09-07T20:23:33.162820676+08:00"
+    created: "2024-09-07T20:35:04.961161943+08:00"
     description: A Helm chart for Kubernetes
     digest: 9ca2d9474a8d2d200975fea53954dc960b97de80a0ce42dc1a7fa577006875ff
     name: emqx-core
@@ -14,9 +14,9 @@ entries:
   nacos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-09-07T20:23:33.163278529+08:00"
+    created: "2024-09-07T20:35:04.961545346+08:00"
     description: A Helm chart for Kubernetes
-    digest: 92c452abfab9d88f336f6d3e72f6442acded5f4487ea3b3f54d032b249e70d79
+    digest: b45d6145887e9281c51e023bacf02f6b51b07306494a40e53e3b683cb031af6b
     maintainers:
     - name: arrowfeng
     - name: paderlol
@@ -24,4 +24,4 @@ entries:
     urls:
     - nacos-helm-cluster-2.4.1.tgz
     version: 0.1.5
-generated: "2024-09-07T20:23:33.162382922+08:00"
+generated: "2024-09-07T20:35:04.960768266+08:00"
