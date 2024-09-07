@@ -1,1 +1,1 @@
-# helm-repo
+# github-helm-repo
