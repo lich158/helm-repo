@@ -3,9 +3,9 @@ entries:
   emqx-core:
   - apiVersion: v2
     appVersion: "5.0"
-    created: "2024-09-07T20:35:04.961161943+08:00"
+    created: "2024-09-10T16:08:10.05512916+08:00"
     description: A Helm chart for Kubernetes
-    digest: 9ca2d9474a8d2d200975fea53954dc960b97de80a0ce42dc1a7fa577006875ff
+    digest: 5d3f5b3e9f010f9145ffa49600254f1e30fa4c838cbc4e6c092fefd77791bd1a
     name: emqx-core
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   nacos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-09-07T20:35:04.961545346+08:00"
+    created: "2024-09-10T16:08:10.055627083+08:00"
     description: A Helm chart for Kubernetes
     digest: b45d6145887e9281c51e023bacf02f6b51b07306494a40e53e3b683cb031af6b
     maintainers:
@@ -24,4 +24,4 @@ entries:
     urls:
     - nacos-helm-cluster-2.4.1.tgz
     version: 0.1.5
-generated: "2024-09-07T20:35:04.960768266+08:00"
+generated: "2024-09-10T16:08:10.05462683+08:00"
