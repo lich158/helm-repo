@@ -3,7 +3,7 @@ entries:
   emqx-core:
   - apiVersion: v2
     appVersion: "5.0"
-    created: "2024-09-11T10:39:45.944750662+08:00"
+    created: "2024-09-11T10:55:48.433478981+08:00"
     description: A Helm chart for Kubernetes
     digest: 8859b61d2fc850b79fb898558df6d9f8875bbc9aa4a4c258198a84cd7d25b701
     name: emqx-core
@@ -14,9 +14,9 @@ entries:
   emqx-operator:
   - apiVersion: v2
     appVersion: 2.2.24-rc.1
-    created: "2024-09-11T10:39:45.950093969+08:00"
+    created: "2024-09-11T10:55:48.438405645+08:00"
     description: A Helm chart for EMQX Operator Controller
-    digest: 8ef57b118041140004dd12d7703b15eec0a08f4a6fd8c5637cd89b8d41e7f4e8
+    digest: 45bc9424c49df555d69f3b4ee1c269fb747660196ec39cc14a98453e347c4c7d
     name: emqx-operator
     sources:
     - https://github.com/emqx/emqx-operator/tree/main/deploy/charts/emqx-operator
@@ -28,7 +28,7 @@ entries:
   nacos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2024-09-11T10:39:45.950599073+08:00"
+    created: "2024-09-11T10:55:48.438930238+08:00"
     description: A Helm chart for Kubernetes
     digest: b45d6145887e9281c51e023bacf02f6b51b07306494a40e53e3b683cb031af6b
     maintainers:
@@ -38,4 +38,4 @@ entries:
     urls:
     - nacos-helm-cluster-2.4.1.tgz
     version: 0.1.5
-generated: "2024-09-11T10:39:45.944265378+08:00"
+generated: "2024-09-11T10:55:48.433044373+08:00"
